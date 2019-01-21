@@ -1,0 +1,420 @@
+.topnav a {
+  float: left;
+  color: #01B778;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #168D4A;
+  color: black;
+}
+.image img
+{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 90px;
+  left: -40px;
+  display: inline-block;
+
+}
+.image  .self 
+{
+  visibility: hidden;
+  width: 500px;
+  height: 120px;
+  background-color: #08763C;
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 9px;
+  padding: 5px 0;
+
+  position: absolute;
+  top:130px;
+  left:800px;
+
+}
+
+.image:hover .self 
+{
+  visibility: visible;
+
+}
+.edu .college img 
+{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 100px;
+  left: 50px;
+}
+.edu .college p b
+{
+  position: relative;
+  top: 30px;
+  left: 100px;
+  font-size: 15px;
+  color: white;
+}
+
+.edu .school img 
+{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 130px;
+  left: 50px;
+}
+.edu .school p b
+{
+  position: relative;
+  top: 60px;
+  left: 100px;
+  font-size: 15px;
+  color: white;
+}
+
+.edu .school2 img 
+{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 160px;
+  left: 50px;
+}
+.edu .school2 p b
+{
+  position: relative;
+  top: 90px;
+  left: 100px;
+  font-size: 15px;
+  color: white;
+}
+
+p.self
+{
+  position: relative;
+  top: 90px;
+  left: -80px;
+  font-size: 20px;
+  color: #49048A;
+  font-family:verdana;
+
+}
+
+body
+{
+  background-image: url("https://sayantan1997.github.io/images/slider_bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.edu
+{
+  background-image: url("../images/slide5.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 500px;
+  border-radius: 30px;
+  padding: 20px;
+  color: white;
+}
+
+.skills .c img
+{
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  position: relative;
+  top:95px;
+  left:50px;
+}
+
+.skills .c .p1
+{
+  width: 10px;
+  height: 10px;
+  background: red;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+  position: relative;
+  left:135px;
+  top :65px;
+}
+.skills .c .p1:hover
+{
+  width:300px;
+}
+.skills .c p
+{
+  color:white;
+  position:relative;
+  left:100px;
+  top:150px;
+  font-weight: bold;
+}
+
+
+.skills .java img
+{
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  position: relative;
+  top:95px;
+  left:50px;
+}
+
+.skills .java .p2
+{
+  width: 10px;
+  height: 10px;
+  background: red;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+  position: relative;
+  left:135px;
+  top :65px;
+}
+.skills .java .p2:hover
+{
+  width:200px;
+}
+.skills .java p
+{
+  color:white;
+  position:relative;
+  left:100px;
+  top:150px;
+  font-weight: bold;
+}
+
+.skills .python img
+{
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  position: relative;
+  top:95px;
+  left:50px;
+}
+
+.skills .python .p3
+{
+  width: 10px;
+  height: 10px;
+  background: red;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+  position: relative;
+  left:135px;
+  top :65px;
+}
+.skills .python .p3:hover
+{
+  width:300px;
+}
+.skills .python p
+{
+  color:white;
+  position:relative;
+  left:100px;
+  top:150px;
+  font-weight: bold;
+}
+
+.skills .html img
+{
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  position: relative;
+  top:95px;
+  left:50px;
+}
+
+.skills .html .p4
+{
+  width: 10px;
+  height: 10px;
+  background: red;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+  position: relative;
+  left:135px;
+  top :65px;
+}
+.skills .html .p4:hover
+{
+  width:200px;
+}
+.skills .html p
+{
+  color:white;
+  position:relative;
+  left:100px;
+  top:150px;
+  font-weight: bold;
+}
+
+.skills .css img
+{
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  position: relative;
+  top:95px;
+  left:50px;
+}
+
+.skills .css .p5
+{
+  width: 10px;
+  height: 10px;
+  background: red;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+  position: relative;
+  left:135px;
+  top :65px;
+}
+.skills .css .p5:hover
+{
+  width:100px;
+}
+.skills .css p
+{
+  color:white;
+  position:relative;
+  left:100px;
+  top:150px;
+  font-weight: bold;
+}
+
+
+.certification p
+{
+   background-image: url("../images/slide5.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   color: white;
+   font-weight: bold;
+   font-style: verdana;
+   position: relative;
+   top :200px;
+   left : 2px;
+
+   width : 1850px;
+   height:500px;
+   padding: 50px;
+   border-radius: 30px;
+}
+
+.projects .ml img
+{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 200px;
+  left: 40px;
+  display: inline-block;
+
+}
+.projects  .ml .proj 
+{
+  visibility: hidden;
+  width: 700px;
+  height: 200px;
+  background-image: url("../images/back.jpg");
+  /*url("Blue-Wood.png");*/
+  color: white;
+  text-align: left;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 9px;
+  
+
+  position: absolute;
+  top:2150px;
+  left:270px;
+
+}
+.projects .ml:hover .proj  
+{
+  visibility: visible;
+
+}
+
+.projects .side img
+{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 290px;
+  left: 40px;
+  display: inline-block;
+
+}
+.projects  .side .proj2 
+{
+  visibility: hidden;
+  width: 500px;
+  height: 120px;
+  /*background-color: #08763C;*/
+  background-image: url("../images/sate.jpeg");
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 9px;
+  padding: 5px 0;
+
+  position: absolute;
+  top:2490px;
+  left:270px;
+
+}
+.projects .side:hover .proj2
+{
+  visibility: visible;
+
+}
+
+.contact .fb img
+{
+  border-radius: 50%;
+  position: relative;
+
+  height:50px;
+  width:50px;
+
+  position:relative;
+  top:400px;
+  left:100px;
+
+}
+
+.contact .github img
+{
+  border-radius: 50%;
+  position: relative;
+
+  height:50px;
+  width:50px;
+
+  position:relative;
+  top:346px;
+  left:200px;
+
+}
+
